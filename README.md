@@ -18,7 +18,7 @@ Programa exclusivo e gratuito da Rocketseat
 <br>
 
 <p align="center">
-  <img alt="Projecto Devlinks" src="../../github/preview.jpg" width="100%">
+  <img alt="Projecto Devlinks" src="./github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
