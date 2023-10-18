@@ -2,9 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body{
     background: url(../../img/bg-mobile.jpg) no-repeat top center/cover;
 
+}
+
+#container {
+   margin: auto;
+    width: 360px;
+    height: 712px;
+    padding: 16px;
+
+}
+
+#profile img{
+    width: 112px;
+    height: 112px;
+    
 }
