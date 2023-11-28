@@ -9,3 +9,14 @@ body{
     background: url(../img/bg-mobile.jpg) no-repeat top center/cover;
 }
 
+#container{
+    width: 100%;
+    margin: 56px auto 0px;
+    border: 10px solid red;
+    padding: 0 24px;
+
+}
+
+#perfil {
+    width: 350px;
+}
