@@ -12,11 +12,20 @@ body{
 #container{
     width: 100%;
     margin: 56px auto 0px;
-    border: 10px solid red;
     padding: 0 24px;
 
 }
 
 #perfil {
-    width: 350px;
+    text-align: center;
+    padding: 24px;
+}
+#perfil img{
+    width: 112px;
+    border-radius: 999px;
+}
+
+#perfil p{
+    font-weight: 500px;
+    line-height: 24px;
 }
