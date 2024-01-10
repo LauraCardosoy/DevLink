@@ -21,6 +21,7 @@ body {
 }
 #perfil img {
   width: 112px;
+  border-radius: 999px;
 }
 
 #perfil p {
@@ -48,25 +49,52 @@ ul li a {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   background: rgba(255, 255, 255, 0.05);
-   transition: background 0.2s;
-
+  transition: background 0.2s;
 }
-ul li a:hover{
+ul li a:hover {
   background: rgba(255, 255, 255, 0.02);
-    border: 1.5px solid #ffffff;
+  border: 1.5px solid #ffffff;
 }
 
-#social-links{
-   display: flex;
-   justify-content: center;
-   padding: 24px 0px;
-   font-size: 24px;
+/*switch*/
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 4px auto;
 }
 
-#social-links a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    
+#switch button{
+  width: 32px;
+  height: 32px;
+  background: white;
+  border: 0;
+  border-radius: 50%;
+
+  
+
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0px;
+  font-size: 24px;
+}
+
+#social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+footer {
+  padding: 24px 0;
+  font-size: 14px;
+  text-align: center;
 }
