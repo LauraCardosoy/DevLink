@@ -5,6 +5,15 @@
   font-family: "Inter", sans-serif;
 }
 
+.root{
+  --text-color: white;
+  --bg-url: url(../assets/bg-mobile.jpg);
+  --stroke-color: rgb(122, 121, 121, 0.5);
+  --surface-color: rgba(122, 122, 255, 0.05);
+  --surface-color-hover: rgba(122, 122, 255, 0.02)
+  --highlight-color: rgba(122, 122, 122, 0.2)
+  --switch-bg-url: url(../assets/moon-stars.svg)
+}
 body {
   background: url(../img/bg-mobile.jpg) no-repeat top center/cover;
 }
@@ -66,7 +75,7 @@ ul li a:hover {
 #switch button{
   width: 32px;
   height: 32px;
-  background: white;
+  background: white url(../img/moon-stars.svg) no-repeat center;
   border: 0;
   border-radius: 50%;
 
@@ -79,22 +88,20 @@ ul li a:hover {
 }
 
 #switch button:hover{
-  outline: 8px solid blue;
+  outline: 8px solid rgba(74, 78, 78, 0.5);
 }
 
 #switch span{
   display: block;
   width: 64px;
   height: 24px;
-  background: yellow;
-  border: 1px solid pink;
+  background: rgba(58, 44, 58, 0.5);
+  border: 1px solid rgb(122, 121, 121);
   border-radius: 9999px;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 
 }
-
-
 #social-links {
   display: flex;
   justify-content: center;
@@ -107,6 +114,7 @@ ul li a:hover {
   justify-content: center;
   align-items: center;
   padding: 16px;
+  
 }
 #social-links a:hover {
   background: rgba(255, 255, 255, 0.05);
@@ -118,4 +126,6 @@ footer {
   padding: 24px 0;
   font-size: 14px;
   text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  
 }
