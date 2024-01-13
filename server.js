@@ -1,4 +1,4 @@
-const express = require (`express`)
+const express = require(`express`)
 
 const app = express()
 
@@ -8,8 +8,8 @@ app.use(`/img`, express.static(__dirname + `public/img`))
 
 app.set(`view engine`, `ejs`)
 
-app.get(`/`, function(req, res){
-    res.render(`page/index`)
+app.get(`/`, function (req, res) {
+  res.render(`page/index`)
 })
 
 app.listen(8080)
