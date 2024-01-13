@@ -1,4 +1,4 @@
-<!--<h1 align="center">Dev Links </h1>
+<h1 align="center">Dev Links </h1>
 
 <p align="center">
 Programa exclusivo e gratuito da Rocketseat
@@ -45,4 +45,3 @@ Esse projeto está sob a licença MIT.
 ---
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
--->
