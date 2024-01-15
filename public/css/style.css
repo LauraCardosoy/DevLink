@@ -8,7 +8,7 @@
 
 :root{
   --text-color: white;
-  --bg-url: url(../img/bg-mobile.jpg);
+  --bg-url: url(../img/bg-desktop.jpg);
   --stroke-color: rgba(59, 56, 56, 0.5);
   --surface-color: rgba(255, 255, 255, 0.568);
   --surface-color-hover: rgba(122, 122, 255, 0.02);
